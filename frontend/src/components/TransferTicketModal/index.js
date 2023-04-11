@@ -60,7 +60,7 @@ const TransferTicketModal = ({ modalOpen, onClose, ticketid, ticketWhatsappId, t
 			setQueues(list);
 		}
 		loadQueues();
-		// eslint-disable-next-line react-hooks/exhaustive-deps
+		// eslint-disable-next-line react-hooks/exhaustive-deps /
 	}, []);
 
 	useEffect(() => {
